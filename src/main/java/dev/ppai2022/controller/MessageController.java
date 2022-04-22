@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/messages")
 public class MessageController {
-    
+
     @GetMapping("/hello")
-    public String hello(){
-        return "Esto en un metodo get. Holas. Esto funciona con VueJS!";
+    public String hello() {
+        return "Esto en un metodo get. Holas. Esto funciona con VueJS! 😎";
     }
 }
